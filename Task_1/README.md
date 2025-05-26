@@ -27,13 +27,14 @@ My IP range was (172.28.13.0/24) found it using ifconfig
 
 sudo apt install wireshark 
 
-4.Added permissions using-
+4. Added permissions using-
 
 sudo usermod -aG wireshark $USER
 
 Restarted WSL session to apply group changes.
 
 5. Captured Network Traffic with Wireshark
+ 
 Started Wireshark, selected Ethernet interface, and captured packets during the Nmap scan.
 
 ---------

@@ -44,10 +44,13 @@ Analysis-
 Nmap scan analysis-
 
 -Open port 5901 indicates a VNC service is running on the detected host.
+
 -VNC may pose risks if not secured with encryption and strong credentials.
 
 Wireshark Analysis-
 
 -Broadcasts from 172.28.0.1 suggest local device/service discovery.
+
 -DNS lookups for services.addons.mozilla.org confirm browser (likely Firefox) activity.
+
 -VNC port activity (5901) matched Nmap findings.

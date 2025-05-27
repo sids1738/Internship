@@ -1,0 +1,11 @@
+Return-Path: <shore@suksapan.or.th>  
+Reply-To: globalmeritexperts@gmail.com  
+Authentication-Results:  
+  spf=softfail (sender IP is 202.129.206.234)  
+  dkim=none (no signature)  
+  dmarc=none (no policy found)  
+Received-SPF: SoftFail  
+X-Sender-IP: 202.129.206.234  
+X-Originating-IP: [102.69.139.111]  
+Authenticated Sender: FAIL  
+Message originated from: host4.ns.co.th (likely compromised or spoofed)  
